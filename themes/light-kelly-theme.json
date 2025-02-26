@@ -1,0 +1,61 @@
+{
+    "name": "Light (Kelly)",
+    "type": "light",
+    "colors": {
+        // Editor
+        "editor.background": "#F7EBB3",           // Your requested editor background
+        "editor.foreground": "#000000",          // Dark text for contrast
+        "editor.lineHighlightBackground": "#E0E8F5", // Subtle blue-gray highlight
+        "editor.selectionBackground": "#ADD6FF",  // Blue selection, matching VS2022
+        "editorCursor.foreground": "#000000",     // Black cursor
+
+        // Workbench (UI)
+        "activityBar.background": "#40568D",      // Light blue like VS2022 editor bg
+        "activityBar.foreground": "#FFFFFF",      // Dark icons/text
+        "sideBar.background": "#FFFFFF",          // Slightly lighter blue for sidebar
+        "sideBar.foreground": "#1E1E1E",          // Dark text
+        "sideBarSectionHeader.background": "#C8DCF7", // Mid-blue for headers
+        "titleBar.activeBackground": "#40568D",   // Matches activity bar
+        "titleBar.activeForeground": "#FFFFFF",   // Dark title text
+        "titleBar.inactiveBackground": "#E8F0FD", // Slightly muted when inactive
+        "tab.activeBackground": "#FFFFFF",        // White for active tab
+        "tab.inactiveBackground": "#40568D",      // Mid-blue for inactive tabs
+        "tab.activeForeground": "#000000",        // Dark text on active tab
+        "tab.inactiveForeground": "#FFFFFF",      // Slightly lighter dark for inactive
+        "statusBar.background": "#40568D",        // Brighter blue accent like VS2022
+        "statusBar.foreground": "#FFFFFF",        // White text for contrast
+
+        // Additional UI Tweaks
+        "button.background": "#3399FF",           // Blue buttons
+        "button.foreground": "#FFFFFF",           // White text on buttons
+        "dropdown.background": "#F0F6FD",         // Light blue dropdowns
+        "input.background": "#FFFFFF",            // White input fields
+        "input.foreground": "#1E1E1E"             // Dark text in inputs
+    },
+    "tokenColors": [
+        {
+            "scope": "comment",
+            "settings": {
+                "foreground": "#008000"           // Green comments like VS2022
+            }
+        },
+        {
+            "scope": "keyword",
+            "settings": {
+                "foreground": "#0000FF"           // Blue keywords
+            }
+        },
+        {
+            "scope": "string",
+            "settings": {
+                "foreground": "#A31515"           // Red strings
+            }
+        },
+        {
+            "scope": "number",
+            "settings": {
+                "foreground": "#098658"           // Teal numbers
+            }
+        }
+    ]
+}

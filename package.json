@@ -1,0 +1,24 @@
+{
+	"name": "custom-light-f7ebb3",
+	"displayName": "Light (Kelly)",
+	"description": "A Light (Visual Studio) theme with #F7EBB3 editor background",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Light (F7EBB3)",
+				"uiTheme": "vs",
+				"path": "./themes/light-kelly-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"size": 1585
+	}
+}
