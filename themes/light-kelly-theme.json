@@ -18,6 +18,7 @@
         "titleBar.activeBackground": "#40568D",   // Matches activity bar
         "titleBar.activeForeground": "#FFFFFF",   // Dark title text
         "titleBar.inactiveBackground": "#E8F0FD", // Slightly muted when inactive
+        "titleBar.inactiveForeground": "#000000", // Black title text
         "tab.activeBackground": "#FFFFFF",        // White for active tab
         "tab.inactiveBackground": "#40568D",      // Mid-blue for inactive tabs
         "tab.activeForeground": "#000000",        // Dark text on active tab
